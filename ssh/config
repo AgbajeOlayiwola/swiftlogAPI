@@ -1,0 +1,4 @@
+Host Swift
+HostName 46.101.18.199
+User root 
+IdentityFile /.ssh.pub
