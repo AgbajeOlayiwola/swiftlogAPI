@@ -39,6 +39,7 @@ class AuthController extends Controller
     }
 
     public function register(Request $request){
+        dd($request);
         $this->validate($request,[
             'email' => 'required|email|unique:users',
             'password' => 'required', //removed confirmed 

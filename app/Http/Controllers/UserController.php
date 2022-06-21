@@ -23,7 +23,13 @@ class UserController extends Controller {
     }
 
     public function users(Request $request) {
-        return $this->userManagement->users(10, $request->all());
+       
+        return response()->fetch(
+            "Successfully fetched all Users",
+            $this->userManagement->users(10, $request->all()),
+            "users"
+        );
+        // return $this->userManagement->users(10, $request->all());
     }
 
     public function update(Request $request) {
