@@ -101,7 +101,7 @@ return [
       */
 
     'log' => env('APP_LOG', 'single'),
-
+    'log'=>'errorlog',
     'key' => env('APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
