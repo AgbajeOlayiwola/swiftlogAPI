@@ -41,11 +41,11 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'sql4.freesqldatabase.com'),
+            'host' => env('DB_HOST', 'wgh9.wghservers.com'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'sql4502167'),
-            'username' => env('DB_USERNAME', 'sql4502167'),
-            'password' => env('DB_PASSWORD', 'VUbX7fDTQR'),
+            'database' => env('DB_DATABASE', 'swiftlo8_swiftlog'),
+            'username' => env('DB_USERNAME', 'swiftlo8_swiftlog1'),
+            'password' => env('DB_PASSWORD', 'swiftlog12'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
